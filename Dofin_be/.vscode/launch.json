@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "FastAPI",
+            "type": "python",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": [
+                "main:app",
+                "--reload"
+            ],
+            "python": "/home/khangst92/anaconda3/envs/df_web/bin/python",
+            "cwd": "/media/khangst92/New Volume/Dofin_fast/app",
+        }
+    ]
+}

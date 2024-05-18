@@ -1,0 +1,67 @@
+version: latest
+
+services:
+  db:
+    image: postgres:latest
+    container_name: db
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=1
+      - POSTGRES_DB=dofin
+    networks:
+      - df_network
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: [ "CMD", "pg_isready", "-U", "dofin" ]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+
+  api:
+    build:
+      context: ../Dofin_be/app
+      dockerfile: ../docker/dockerfile/api
+    container_name: api
+    restart: unless-stopped
+    networks:
+      - df_network
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    command:
+      - uvicorn main:app --reload
+
+  dofins_web:
+    container_name: dofins_web
+    build:
+      context: ../Dofins_fe
+      dockerfile: ../docker/dockerfile/web
+    ports:
+      - "5173:5173"
+    volumes:
+      - ../Dofins_fe:/code
+      - /code/node_modules # Removed semicolon here
+    networks:
+      - df_network
+    tty: true
+
+networks:
+  df_network:
+    driver: bridge
+  # realtime:
+  #   image: ${DOCKER_REGISTRY-}dofins
+  #   container_name: api
+  #   build:
+  #     context: .
+  #     dockerfile: Donfins/Service
+  #   environment:
+  #     - ASPNETCORE_ENVIRONMENT=Development
+  #     - ASPNETCORE_URLS=http://+:2345
+  #   ports:
+  #     - "4000:4000"
+  #   networks:
+  #     - df_network

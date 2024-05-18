@@ -1,0 +1,60 @@
+#!/bin/bash
+
+
+NAME=""
+
+FIRST_ARG="$1"
+shift
+ARGS="$@"
+
+docker_down () {
+    COMPOSE_HTTP_TIMEOUT=512 docker compose down --volumes
+}
+
+docker_up () {
+    COMPOSE_HTTP_TIMEOUT=512 docker compose up -d
+}
+
+help () {
+    echo "build             :  build docker instance"
+    echo "up                :  up docker instance"
+    echo "down              :  down docker inscance"
+    echo "restart           :  down then up docker instance"
+    echo "makemigrations    :  create migrations"
+    echo "migrate           :  mirgate database"
+    echo "bserver           :  run phoenix dev server"
+    echo "userver           :  run async server (recommended)"
+}
+
+
+
+if [ "$FIRST_ARG" == "-h" ]; then
+    help
+    exit 0
+fi
+
+if [ "$FIRST_ARG" == "api" ] || [ "$FIRST_ARG" == "db" ] || [ "$FIRST_ARG" == "web" ]; then
+    docker compose exec "$NAME"_"$FIRST_ARG" $ARGS
+elif [ "$FIRST_ARG" == "fserver" ]; then
+    docker  exec dofins_web yarn dev --host --port 5173
+elif [ "$FIRST_ARG" == "bserver" ]; then
+    docker compose exec "$NAME"_api poetry run python manage.py runserver 0.0.0.0:4000
+elif [ "$FIRST_ARG" == "bserver" ]; then
+    docker compose exec dotnet run Dofins
+elif [ "$FIRST_ARG" == "up" ]; then
+    docker_up
+elif [ "$FIRST_ARG" == "down" ]; then
+    docker_down
+elif [ "$FIRST_ARG" == "migrate" ]; then
+    docker exec api alembic upgrade head
+elif [ "$FIRST_ARG" == "restart" ]; then
+    docker_down
+    docker_up
+elif [ "$FIRST_ARG" == "build" ]; then
+    docker compose build --no-cache
+    fi
+else
+    echo "Invalid argument, please use following arguments:"
+    echo "-------------------------------------------------"
+    help
+fi

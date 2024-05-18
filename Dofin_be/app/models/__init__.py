@@ -1,0 +1,31 @@
+from .tickers import Tickers, D1, Finances
+from enum import Enum
+
+
+class Industry(str, Enum):
+    DO_UONG = "Đồ uống - hàng TD"
+    DIEN = "Điện"
+    O_TO_LINH_KIEN = "Ô tô - linh kiện"
+    Y_TE = "Y tế"
+    XAY_DUNG = "Xây dựng"
+    VAN_TAI_KHO_BAI = "Vận tải - kho bãi"
+    VLXD = "VLXD"
+    THUY_SAN = "Thủy sản"
+    THEP = "Thép"
+    THAN_KS = "Than -KS"
+    NHUA = "Nhựa"
+    NGAN_HANG = "Ngân hàng"
+    MIA_DUONG = "Mía đường"
+    HOA_CHAT = "Hóa chất"
+    GAO = "Gạo"
+    DET_MAY = "Dệt may"
+    DAU_KHI = "Dầu khí"
+    CANH_BAO_SOM = "Cảnh báo sớm"
+    CONG_NGHE = "Công nghệ"
+    CHUNG_KHOAN = "Chứng khoán"
+    CHAN_NUOI = "Chăn nuôi"
+    CAO_SU = "Cao su"
+    BAO_HIEM = "Bảo hiểm"
+    BAN_LE = "Bán lẻ"
+    BDS_NHA_O = "BDS nhà ở"
+    BDS_KCN = "BDS KCN"

@@ -1,0 +1,2090 @@
+[
+    {
+        "symbol": "SSI",
+        "industry": "Chứng khoán",
+        "risk_group": "An toàn",
+        "stock_size": "Điều tiết",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "VND",
+        "industry": "Chứng khoán",
+        "risk_group": "An toàn",
+        "stock_size": "Large",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 0.8
+    },
+    {
+        "symbol": "VCI",
+        "industry": "Chứng khoán",
+        "risk_group": "An toàn",
+        "stock_size": "Large",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 0.8
+    },
+    {
+        "symbol": "VIX",
+        "industry": "Chứng khoán",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "SHS",
+        "industry": "Chứng khoán",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HCM",
+        "industry": "Chứng khoán",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "MBS",
+        "industry": "Chứng khoán",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "FTS",
+        "industry": "Chứng khoán",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BSI",
+        "industry": "Chứng khoán",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "CTS",
+        "industry": "Chứng khoán",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "EVF",
+        "industry": "Chứng khoán",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BVS",
+        "industry": "Chứng khoán",
+        "risk_group": "Trung tính",
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "AGR",
+        "industry": "Chứng khoán",
+        "risk_group": "Trung tính",
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "SBS",
+        "industry": "Chứng khoán",
+        "risk_group": "Rủi ro",
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "ORS",
+        "industry": "Chứng khoán",
+        "risk_group": "Rủi ro",
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "APG",
+        "industry": "Chứng khoán",
+        "risk_group": "Rủi ro",
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VCB",
+        "industry": "Ngân hàng",
+        "risk_group": "An toàn",
+        "stock_size": "Điều tiết",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 0.3
+    },
+    {
+        "symbol": "BID",
+        "industry": "Ngân hàng",
+        "risk_group": "An toàn",
+        "stock_size": "Điều tiết",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "CTG",
+        "industry": "Ngân hàng",
+        "risk_group": "An toàn",
+        "stock_size": "Điều tiết",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 0.8
+    },
+    {
+        "symbol": "TCB",
+        "industry": "Ngân hàng",
+        "risk_group": "An toàn",
+        "stock_size": "Điều tiết",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 0.8
+    },
+    {
+        "symbol": "MBB",
+        "industry": "Ngân hàng",
+        "risk_group": "An toàn",
+        "stock_size": "Điều tiết",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 0.8
+    },
+    {
+        "symbol": "ACB",
+        "industry": "Ngân hàng",
+        "risk_group": "An toàn",
+        "stock_size": "Điều tiết",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 0.8
+    },
+    {
+        "symbol": "STB",
+        "industry": "Ngân hàng",
+        "risk_group": "An toàn",
+        "stock_size": "Điều tiết",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VPB",
+        "industry": "Ngân hàng",
+        "risk_group": "Trung tính",
+        "stock_size": "Điều tiết",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 0.8
+    },
+    {
+        "symbol": "HDB",
+        "industry": "Ngân hàng",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VIB",
+        "industry": "Ngân hàng",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "SHB",
+        "industry": "Ngân hàng",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "EIB",
+        "industry": "Ngân hàng",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "MSB",
+        "industry": "Ngân hàng",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TPB",
+        "industry": "Ngân hàng",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "LPB",
+        "industry": "Ngân hàng",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "SSB",
+        "industry": "Ngân hàng",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "OCB",
+        "industry": "Ngân hàng",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "ABB",
+        "industry": "Ngân hàng",
+        "risk_group": "Rủi ro",
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "NAB",
+        "industry": "Ngân hàng",
+        "risk_group": "Rủi ro",
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "NVB",
+        "industry": "Ngân hàng",
+        "risk_group": "Rủi ro",
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VAB",
+        "industry": "Ngân hàng",
+        "risk_group": "Rủi ro",
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BVB",
+        "industry": "Ngân hàng",
+        "risk_group": "Rủi ro",
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VIC",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Điều tiết",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 0.3
+    },
+    {
+        "symbol": "VHM",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Điều tiết",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 0.3
+    },
+    {
+        "symbol": "VRE",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Điều tiết",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 0.4
+    },
+    {
+        "symbol": "NVL",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "KDH",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DIG",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DXG",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PDR",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "CEO",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TCH",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HDC",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "NLG",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HDG",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VPI",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "KOS",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "AGG",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "NTL",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "KHG",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "IJC",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HHS",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DXS",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "SCR",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "L14",
+        "industry": "BDS nhà ở",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BCM",
+        "industry": "BDS KCN",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "KBC",
+        "industry": "BDS KCN",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VGC",
+        "industry": "BDS KCN",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "IDC",
+        "industry": "BDS KCN",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "NTC",
+        "industry": "BDS KCN",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "SIP",
+        "industry": "BDS KCN",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "SZC",
+        "industry": "BDS KCN",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "ITA",
+        "industry": "BDS KCN",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "LHG",
+        "industry": "BDS KCN",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TIP",
+        "industry": "BDS KCN",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "D2D",
+        "industry": "BDS KCN",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PXL",
+        "industry": "BDS KCN",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HUT",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PC1",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "CII",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VCG",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HHV",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "C4G",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "CTD",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "LCG",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "FCN",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DPG",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HTN",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DTD",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "EVG",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VC3",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VC7",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HBC",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "IDJ",
+        "industry": "Xây dựng",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "GEX",
+        "industry": "VLXD",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 0.6
+    },
+    {
+        "symbol": "HT1",
+        "industry": "VLXD",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VCS",
+        "industry": "VLXD",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PTB",
+        "industry": "VLXD",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BCC",
+        "industry": "VLXD",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VLB",
+        "industry": "VLXD",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "KSB",
+        "industry": "VLXD",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "GKM",
+        "industry": "VLXD",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "KPF",
+        "industry": "VLXD",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "MBG",
+        "industry": "VLXD",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PGV",
+        "industry": "Điện",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "POW",
+        "industry": "Điện",
+        "risk_group": "Nhiệt điện",
+        "stock_size": "Large",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "REE",
+        "industry": "Điện",
+        "risk_group": "Thủy điện",
+        "stock_size": "Large",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "GEG",
+        "industry": "Điện",
+        "risk_group": "Thủy điện",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "NT2",
+        "industry": "Điện",
+        "risk_group": "Điện khí",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PPC",
+        "industry": "Điện",
+        "risk_group": "Nhiệt điện",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "GEE",
+        "industry": "Điện",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "QTP",
+        "industry": "Điện",
+        "risk_group": "Nhiệt điện",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VSH",
+        "industry": "Điện",
+        "risk_group": "Thủy điện",
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "SJD",
+        "industry": "Điện",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TTA",
+        "industry": "Điện",
+        "risk_group": "NL tái tạo",
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TV2",
+        "industry": "Điện",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "NED",
+        "industry": "Điện",
+        "risk_group": "Thủy điện",
+        "stock_size": "Micro/penny",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TEG",
+        "industry": "Điện",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "ANV",
+        "industry": "Thủy sản",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "MPC",
+        "industry": "Thủy sản",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VHC",
+        "industry": "Thủy sản",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "ASM",
+        "industry": "Thủy sản",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "FMC",
+        "industry": "Thủy sản",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "IDI",
+        "industry": "Thủy sản",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "ACL",
+        "industry": "Thủy sản",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "CMX",
+        "industry": "Thủy sản",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HPG",
+        "industry": "Thép",
+        "risk_group": "An toàn",
+        "stock_size": "Điều tiết",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.3
+    },
+    {
+        "symbol": "HSG",
+        "industry": "Thép",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "NKG",
+        "industry": "Thép",
+        "risk_group": "Trung tính",
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "SHI",
+        "industry": "Thép",
+        "risk_group": "Rủi ro",
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VPG",
+        "industry": "Thép",
+        "risk_group": "Rủi ro",
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VGS",
+        "industry": "Thép",
+        "risk_group": "Rủi ro",
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TLH",
+        "industry": "Thép",
+        "risk_group": "Rủi ro",
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "SMC",
+        "industry": "Thép",
+        "risk_group": "Rủi ro",
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DBC",
+        "industry": "Chăn nuôi",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HAG",
+        "industry": "Chăn nuôi",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BAF",
+        "industry": "Chăn nuôi",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VLC",
+        "industry": "Chăn nuôi",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VJC",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": "Hàng không",
+        "stock_size": "Điều tiết",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "GMD",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": "Cảng biển",
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HVN",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": "Hàng không",
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.7
+    },
+    {
+        "symbol": "ACV",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "HAH",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": "Cảng biển",
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PVT",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": "Vận tải biển",
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VOS",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": "Vận tải biển",
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VSC",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PVP",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": "Vận tải biển",
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "SKG",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": "Vận tải thủy",
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VTO",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": "Vận tải biển",
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VIP",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": "Vận tải biển",
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "GSP",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": "Vận tải biển",
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DXP",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "MHC",
+        "industry": "Vận tải - kho bãi",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BSR",
+        "industry": "Dầu khí",
+        "risk_group": 0,
+        "stock_size": "Điều tiết",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "GAS",
+        "industry": "Dầu khí",
+        "risk_group": 0,
+        "stock_size": "Điều tiết",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.3
+    },
+    {
+        "symbol": "PLX",
+        "industry": "Dầu khí",
+        "risk_group": 0,
+        "stock_size": "Điều tiết",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "PVS",
+        "industry": "Dầu khí",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "OIL",
+        "industry": "Dầu khí",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PVD",
+        "industry": "Dầu khí",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PSH",
+        "industry": "Dầu khí",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "CNG",
+        "industry": "Dầu khí",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PVB",
+        "industry": "Dầu khí",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PVC",
+        "industry": "Dầu khí",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PVG",
+        "industry": "Dầu khí",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "MWG",
+        "industry": "Bán lẻ",
+        "risk_group": 0,
+        "stock_size": "Điều tiết",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PNJ",
+        "industry": "Bán lẻ",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DGW",
+        "industry": "Bán lẻ",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "FRT",
+        "industry": "Bán lẻ",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PET",
+        "industry": "Bán lẻ",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "MSR",
+        "industry": "Than -KS",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "KSV",
+        "industry": "Than -KS",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PAT",
+        "industry": "Than -KS",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BMC",
+        "industry": "Than -KS",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "CST",
+        "industry": "Than -KS",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "NBC",
+        "industry": "Than -KS",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TC6",
+        "industry": "Than -KS",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TNT",
+        "industry": "Than -KS",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TVD",
+        "industry": "Than -KS",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "GVR",
+        "industry": "Cao su",
+        "risk_group": 0,
+        "stock_size": "Điều tiết",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.3
+    },
+    {
+        "symbol": "PHR",
+        "industry": "Cao su",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DPR",
+        "industry": "Cao su",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DRI",
+        "industry": "Cao su",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VHG",
+        "industry": "Cao su",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VSF",
+        "industry": "Gạo",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PAN",
+        "industry": "Gạo",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "LTG",
+        "industry": "Gạo",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "AGM",
+        "industry": "Gạo",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "AFX",
+        "industry": "Gạo",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TAR",
+        "industry": "Gạo",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BMP",
+        "industry": "Nhựa",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "NTP",
+        "industry": "Nhựa",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "AAA",
+        "industry": "Nhựa",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "APH",
+        "industry": "Nhựa",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "NHH",
+        "industry": "Nhựa",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DAG",
+        "industry": "Nhựa",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "RDP",
+        "industry": "Nhựa",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DCM",
+        "industry": "Hóa chất",
+        "risk_group": "Phân bón",
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "DGC",
+        "industry": "Hóa chất",
+        "risk_group": "Bột giặt",
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.3
+    },
+    {
+        "symbol": "DPM",
+        "industry": "Hóa chất",
+        "risk_group": "Phân bón",
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "CSV",
+        "industry": "Hóa chất",
+        "risk_group": "Bột giặt",
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DDV",
+        "industry": "Hóa chất",
+        "risk_group": "Phân bón",
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "LAS",
+        "industry": "Hóa chất",
+        "risk_group": "Phân bón",
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "PLC",
+        "industry": "Hóa chất",
+        "risk_group": "Nhựa đường",
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BFC",
+        "industry": "Hóa chất",
+        "risk_group": "Phân bón",
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VEA",
+        "industry": "Ô tô - linh kiện",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "CTF",
+        "industry": "Ô tô - linh kiện",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DRC",
+        "industry": "Ô tô - linh kiện",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "HAX",
+        "industry": "Ô tô - linh kiện",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DBD",
+        "industry": "Y tế",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DHG",
+        "industry": "Y tế",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DCL",
+        "industry": "Y tế",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DHT",
+        "industry": "Y tế",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TNH",
+        "industry": "Y tế",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DVM",
+        "industry": "Y tế",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "JVC",
+        "industry": "Y tế",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "LDP",
+        "industry": "Y tế",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "AMV",
+        "industry": "Y tế",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "MSN",
+        "industry": "Đồ uống - hàng TD",
+        "risk_group": "Gia vị, TP",
+        "stock_size": "Điều tiết",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.3
+    },
+    {
+        "symbol": "SAB",
+        "industry": "Đồ uống - hàng TD",
+        "risk_group": "Bia",
+        "stock_size": "Điều tiết",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VNM",
+        "industry": "Đồ uống - hàng TD",
+        "risk_group": "Sữa, cà phê",
+        "stock_size": "Điều tiết",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.2
+    },
+    {
+        "symbol": "MCH",
+        "industry": "Đồ uống - hàng TD",
+        "risk_group": "Gia vị, TP",
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "KDC",
+        "industry": "Đồ uống - hàng TD",
+        "risk_group": "Dầu ăn",
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.5
+    },
+    {
+        "symbol": "BNA",
+        "industry": "Đồ uống - hàng TD",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "QNS",
+        "industry": "Mía đường",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "SBT",
+        "industry": "Mía đường",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "SLS",
+        "industry": "Mía đường",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "LSS",
+        "industry": "Mía đường",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VGT",
+        "industry": "Dệt may",
+        "risk_group": "May mặc",
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TCM",
+        "industry": "Dệt may",
+        "risk_group": "May mặc",
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "MSH",
+        "industry": "Dệt may",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "GIL",
+        "industry": "Dệt may",
+        "risk_group": "May mặc",
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TNG",
+        "industry": "Dệt may",
+        "risk_group": "May mặc",
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "ADS",
+        "industry": "Dệt may",
+        "risk_group": "Dệt - sợi",
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "FPT",
+        "industry": "Công nghệ",
+        "risk_group": "Phần mềm",
+        "stock_size": "Điều tiết",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "FOX",
+        "industry": "Công nghệ",
+        "risk_group": "Phần mềm",
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VGI",
+        "industry": "Công nghệ",
+        "risk_group": "Viễn thông",
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "CMG",
+        "industry": "Công nghệ",
+        "risk_group": "Phần mềm",
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "CTR",
+        "industry": "Công nghệ",
+        "risk_group": "Phần mềm",
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VTP",
+        "industry": "Công nghệ",
+        "risk_group": "Phần mềm",
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "YEG",
+        "industry": "Công nghệ",
+        "risk_group": "Truyền thông",
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "ELC",
+        "industry": "Công nghệ",
+        "risk_group": "Phần mềm",
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BVH",
+        "industry": "Bảo hiểm",
+        "risk_group": 0,
+        "stock_size": "Large",
+        "priority_level": 0,
+        "adjustment_coefficient": 0.3
+    },
+    {
+        "symbol": "PVI",
+        "industry": "Bảo hiểm",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "VNR",
+        "industry": "Bảo hiểm",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BIC",
+        "industry": "Bảo hiểm",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BMI",
+        "industry": "Bảo hiểm",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "MIG",
+        "industry": "Bảo hiểm",
+        "risk_group": 0,
+        "stock_size": "Small",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "LDG",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "QCG",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DRH",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "OGC",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "DLG",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "API",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TDH",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HQC",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HNG",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "ABS",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "APS",
+        "industry": "Cảnh báo sớm",
+        "risk_group": "Rủi ro",
+        "stock_size": "Micro/penny",
+        "priority_level": "Ưu tiên 2",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "FIT",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TSC",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "HPX",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Mid",
+        "priority_level": "Ưu tiên 1",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "BCG",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TVB",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": "Chưa ưu tiên",
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TTF",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    },
+    {
+        "symbol": "TVC",
+        "industry": "Cảnh báo sớm",
+        "risk_group": 0,
+        "stock_size": "Micro/penny",
+        "priority_level": 0,
+        "adjustment_coefficient": 1
+    }
+]
