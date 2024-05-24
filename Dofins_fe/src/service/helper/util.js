@@ -14,7 +14,7 @@ export default class Util {
   }
 
   static formatNumber(num) {
-    if (num === undefined) {
+    if (num === undefined || num === null) {
       return "Market's close";
     }
     const formattedAmount = num.toLocaleString("vi-VN", {
@@ -39,9 +39,9 @@ export default class Util {
         body,
       });
       const responseData = await response.json();
-      return responseData.Token; // assuming the token is directly accessible without 'get' method
+      return responseData?.Token; // assuming the token is directly accessible without 'get' method
     } catch (error) {
-      console.error("Error:", error);
+      console.log("Error:", error);
     }
   }
 
@@ -88,15 +88,15 @@ export default class Util {
     // Combine into the desired format
     const formattedDate = `${year}-${month}-${day}`;
 
-    if (this.checkWeekends([formattedDate])) {
+    if (!this.checkWeekends([formattedDate])) {
       return [];
     } else {
       try {
         const response = await fetch(
           urls +
-            "/Excel/Company/HistoricalQuotes/" +
-            stock +
-            `/${formattedDate}/${formattedDate}`,
+          "/Excel/Company/HistoricalQuotes/" +
+          stock +
+          `/${formattedDate}/${formattedDate}`,
           {
             method: "GET",
             headers: headers,
@@ -120,7 +120,7 @@ export default class Util {
     }
 
     const connectWebSocket = () => {
-      websocket = new WebSocket("ws://localhost:4000/fireAnt");
+      websocket = new WebSocket("ws://116.111.118.183:4000/fireAnt");
 
       websocket.onopen = () => {
         console.log("Connected to WebSocket server");
@@ -167,5 +167,65 @@ export default class Util {
         clearInterval(reconnectInterval);
       }
     };
+  }
+
+
+
+  static signalrFrameworkRealtime() {
+
+    
+    const config = {
+      ConsumerID: "8b3cff49bd5442b3a572654828f11c9d",
+      ConsumerSecret: "c0048050f61847758d53842c55469f8e",
+      URL: "https://fc-data.ssi.com.vn/",
+      HubUrl: "wss://fc-data.ssi.com.vn/",
+    };
+
+    var api = {
+      GET_ACCESS_TOKEN: "api/v2/Market/AccessToken",
+      GET_SECURITIES_LIST: "api/v2/Market/Securities",
+      GET_SECURITIES_DETAILs: "api/v2/Market/SecuritiesDetails",
+      GET_INDEX_COMPONENTS: "api/v2/Market/IndexComponents",
+      GET_INDEX_LIST: "api/v2/Market/IndexList",
+      GET_DAILY_OHLC: "api/v2/Market/DailyOhlc",
+      GET_INTRADAY_OHLC: "api/v2/Market/IntradayOhlc",
+      GET_DAILY_INDEX: "api/v2/Market/DailyIndex",
+      GET_DAILY_STOCKPRICE: "api/v2/Market/DailyStockPrice",
+      SIGNALR: "v2.0/signalr"
+    }
+
+    axios.post(config.URL + api.GET_ACCESS_TOKEN, {
+      consumerID: config.ConsumerID,
+      consumerSecret: config.ConsumerSecret,
+    }).then(response => {
+      if (response.data.status === 200) {
+        const token = "Bearer " + response.data.data.accessToken;
+    
+        axios.interceptors.request.use(function (axios_config) {
+          axios_config.headers.Authorization = token;
+          return axios_config;
+        });
+    
+        const connection = new signalR.HubConnectionBuilder()
+          .withUrl(config.HubUrl, { accessTokenFactory: () => response.data.data.accessToken })
+          .configureLogging(signalR.LogLevel.Information)
+          .build();
+    
+        // connection.on(client.events.onData, function (message) {
+        //   console.log(message);
+        // });
+        // connection.on(client.events.onConnected, function () {
+        //   connection.invoke("SwitchChannel", "X-QUOTE:ALL")
+        //     .catch(err => console.error(err.toString()));
+        // });
+        connection.start()
+          .then(() => console.log("SignalR Connected"))
+          .catch(err => console.error("SignalR Connection Error: ", err));
+      } else {
+        console.log(response.data.message);
+      }
+    }).catch(reason => {
+      console.log(reason);
+    });
   }
 }

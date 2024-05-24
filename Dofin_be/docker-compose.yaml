@@ -1,26 +1,7 @@
 version: '3.6'
 
 services:
-  # api:
-  #   build: .
-  #   container_name: api
-  #   restart: unless-stopped
-  #   env_file:
-  #     - '.env'
-  #   ports:
-  #     - "8000:8000"
-  #   depends_on:
-  #     - db
-  #   volumes:
-  #     - ./tmp:/opt/app/tmp
-  #   networks:
-  #     - df_network
-  #   healthcheck:
-  #     test:
-  #       ["CMD", "curl", "--fail", "http://localhost:8000/api/v1/docs"]
-  #     interval: 10s
-  #     timeout: 10s
-  #     retries: 5  
+  
   
   db:
     image: postgres:latest

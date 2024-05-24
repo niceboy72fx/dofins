@@ -5,6 +5,7 @@ import { Button } from "@mui/material";
 import { popUp } from "../../../../state";
 import { useRecoilState, useSetRecoilState } from "recoil";
 import Util from "../../../../service/helper/util";
+import StorageUtil from "../../../../service/helper/storage";
 
 const TableStyled = styled(Table)`
   margin-top: 15px;
@@ -101,32 +102,36 @@ export default function TableUI({ stockData, setParams, loader }) {
     page: 0,
   });
   const [dateTime, setDateTime] = React.useState([]);
-  const [token, setToken] = React.useState("");
+  // const [token, setToken] = React.useState("");
   const [listStock, setListStock] = React.useState([]);
   const [listHistoryStock, setListHistoryStock] = React.useState([]);
+  const [colorChange, setColorChange] = React.useState({id: null,style:{}});
 
   const getStockHistory = () => {
-    getToken();
-    let promises = stockData?.items?.map((item) =>
-      Util.fetchHistoricalStock(item.symbol, token)
-    );
-    Promise.all(promises)
-      .then((data) => {
-        if (data.length > 0) {
-          const binding = data
-            .filter((result) => result !== undefined && result.length > 0)
-            .flat();
-          setListHistoryStock(binding);
-        } else {
-          setListHistoryStock([]);
-        }
-      })
-      .catch((error) => {
-        console.error("Error fetching stock history:", error);
-      });
+    Util.authenticate()
+    .then((token) => {
+      let promises = stockData?.items?.map((item) =>
+        Util.fetchHistoricalStock(item.symbol, token)
+      );
+      return Promise.all(promises);
+    })
+    .then((data) => {
+      if (data.length > 0) {
+        const binding = data
+          .filter((result) => result !== undefined && result.length > 0)
+          .flat();
+        setListHistoryStock(binding);
+      } else {
+        setListHistoryStock([]);
+      }
+    })
+    .catch((error) => {
+      console.error("Error fetching stock history:", error);
+    });
   };
 
   React.useEffect(() => {
+
     const { items, total_pages, total_items, items_per_page, page } = stockData;
     if (items && Array.isArray(items)) {
       setLoading(false);
@@ -152,10 +157,7 @@ export default function TableUI({ stockData, setParams, loader }) {
     getStockHistory();
   }, [stockData]);
 
-  const getToken = async () => {
-    const token = await Util.authenticate();
-    setToken(token);
-  };
+ 
 
   React.useEffect(() => {
     const realtime = Util.handleStockRealtime(setFilteredMessages);
@@ -167,7 +169,7 @@ export default function TableUI({ stockData, setParams, loader }) {
   /////////////////////////////////////////
   let previousPriceAverages = {};
   React.useEffect(() => {
-    const stockTest = stock.items.map((record) => {
+    const stockTest = stock.items.map((record, index) => {
       let priceAverageRecord = null;
 
       const stockRealtime =
@@ -176,43 +178,66 @@ export default function TableUI({ stockData, setParams, loader }) {
           : undefined;
 
       let stockHistory = [];
+              localStorage.setItem("listStockHistory", "[]");
+
       if (listHistoryStock.length > 0) {
-        stockHistory = listHistoryStock.find(
+        localStorage.setItem("listStockHistory", JSON.stringify(listHistoryStock));
+        const foundHistory = listHistoryStock.find(
           (item) => item?.Symbol === record.symbol
         );
+
+        if (foundHistory) {
+          stockHistory = {
+            ...foundHistory,
+            exchange: record.exchange,
+          };
+        }
+      
+      } else {
+        const data = JSON.parse(localStorage.getItem("listStockHistory"));
+        const foundHistory = data.find(
+          (item) => item?.Symbol === record.symbol
+        );
+
+        if (foundHistory) {
+          stockHistory = {
+            ...foundHistory,
+            exchange: record.exchange,
+          };
+        }
       }
 
-      if (stockHistory) {
-        stockHistory = {
-          ...stockHistory,
-          exchange: record.exchange,
-        };
-      }
+      
+      
 
       let priceAverage = stockRealtime
         ? record.exchange == "UPCOM"
           ? stockRealtime.PriceAverage
           : stockRealtime.PriceClose
-        : "N/A";
-      if (priceAverageRecord !== null) {
+        : null;
+      if (priceAverageRecord !== null || priceAverage !== undefined) {
         previousPriceAverages[record.symbol] = priceAverageRecord;
+        
+        
       }
-      if (priceAverage === "N/A" && previousPriceAverages[record.symbol]) {
+      if (priceAverage === null && previousPriceAverages[record.symbol]) {
         priceAverage = previousPriceAverages[record.symbol];
+        setColorChange({id: index,style:{ backgroundColor: "white", color: "black" }});
+        setInterval(() => {
+          setColorChange({id: index,style:{}}); // Reset to original state
+        }, 100);
       }
 
+      if (priceAverage){
+        setColorChange({id: index,style:{ backgroundColor: "white", color: "black" }});
+        setInterval(() => {
+          setColorChange({id: index,style:{}}); // Reset to original state
+        }, 100);
+        
+      }
       const obj = {
         name: record.symbol,
-        today:
-          priceAverage === "N/A"
-            ? listHistoryStock.length < 0
-              ? "Market's closed"
-              : Util.formatNumber(
-                  stockHistory.exchange !== "UPCOM"
-                    ? stockHistory.PriceClose
-                    : stockHistory.PriceAverage
-                )
-            : priceAverage,
+        today: (<div key={index} style={colorChange.id === 3 ? colorChange.style : null}>{priceAverage === null ? Util.formatNumber(stockHistory?.exchange === "UPCOM" ? stockHistory?.PriceAverage : stockHistory?.PriceClose) : Util.formatNumber(priceAverage)}</div>),
         action: (
           <Button
             variant="outlined"
@@ -236,7 +261,7 @@ export default function TableUI({ stockData, setParams, loader }) {
       return obj;
     });
     setListStock(stockTest);
-  }, [listHistoryStock]);
+  }, [listHistoryStock, filteredMessages]);
 
   const now = new Date();
 
@@ -272,6 +297,7 @@ export default function TableUI({ stockData, setParams, loader }) {
   ];
 
   const data = [...listStock];
+
 
   const handleTableChange = (pagination) => {
     setParams({

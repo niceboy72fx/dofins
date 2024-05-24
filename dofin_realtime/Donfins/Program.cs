@@ -15,7 +15,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.WebHost.UseUrls("http://localhost:4000");
+builder.WebHost.UseUrls("http://0.0.0.0:4000");
 
 builder.Services.AddSingleton<IAuthentication, AuthenticationServices>();
 
@@ -42,9 +42,9 @@ app.Map("/fireAnt", async context =>
         }
         else
         {
+            var stockServices = await realtimeServices.FireAnt(token);
             while (true)
             {
-                var stockServices = await realtimeServices.FireAnt(token);
                 if (stockServices.Message != null) {
                     var message = Newtonsoft.Json.JsonConvert.SerializeObject(stockServices);
                     var bytes = Encoding.UTF8.GetBytes(message);
@@ -58,8 +58,8 @@ app.Map("/fireAnt", async context =>
                         break;
                     }
                 }               
-/*                await Task.Delay(1000);
-*/            }
+                await Task.Delay(400);
+            }
         }
     }
     else

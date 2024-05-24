@@ -11,13 +11,21 @@ namespace Dofins.Services
     public class RealtimeServices : IRealtime
     {
 
+        private  IAuthentication _authen;
+
+        public RealtimeServices(IAuthentication authentication){
+            _authen = authentication;
+        }
 
         public async Task<ResponseAll<QuoteChanges, MarketInfoChanges, IntradayQuote>> FireAnt(String token)
         {
             List<QuoteChanges> quoteChanges = new List<QuoteChanges> { };
             List<MarketInfoChanges> marketInforChange = new List<MarketInfoChanges> { };
             List<IntradayQuote> intradayQuote = new List<IntradayQuote> { };
-            var hubConnection = new HubConnection("https://www.fireant.vn/", $"Token {token}");
+            String retryToken = token;
+            var hubConnection = new HubConnection("https://www.fireant.vn/", $"Token {retryToken}");
+             hubConnection.TraceLevel = TraceLevels.All;
+             hubConnection.TraceWriter = Console.Out;
             ServicePointManager.DefaultConnectionLimit = 200;
             IHubProxy chatHubProxy = hubConnection.CreateHubProxy("AppQuoteHub");
             try
@@ -58,10 +66,12 @@ namespace Dofins.Services
                         Console.WriteLine("Received empty message.");
                     }
                 });
+           
                 
             }
             catch (Exception ex)
             {
+                // hubConnection.Start();
                 return new ResponseAll<QuoteChanges, MarketInfoChanges, IntradayQuote>(HttpStatusCode.OK, "Couldn't fetching !" + ex, null, null, null);
             }
             try
@@ -69,14 +79,17 @@ namespace Dofins.Services
                 await hubConnection.Start();
             } catch (Exception ex)
             {
-                return new ResponseAll<QuoteChanges, MarketInfoChanges, IntradayQuote>(HttpStatusCode.OK, "Couldn't fetching !" + ex, null, null, null);
+                retryToken = await _authen.GetTokenFireAnt();
+                hubConnection.Start();
+                return new ResponseAll<QuoteChanges, MarketInfoChanges, IntradayQuote>(HttpStatusCode.OK, "Token's expired !" + ex, null, null, null);
             }
-            if ( quoteChanges.Count > 0 || marketInforChange.Count > 0 || intradayQuote.Count > 0) {
-                return new ResponseAll<QuoteChanges, MarketInfoChanges, IntradayQuote>(HttpStatusCode.OK, "FireAnt's RealTime", quoteChanges, marketInforChange, intradayQuote);
-            } else
-            {
-                return new ResponseAll<QuoteChanges, MarketInfoChanges, IntradayQuote>(HttpStatusCode.OK, null, quoteChanges, marketInforChange, intradayQuote);
-            }
+            // if ( quoteChanges.Count > 0 || marketInforChange.Count > 0 || intradayQuote.Count > 0) {
+            //     return new ResponseAll<QuoteChanges, MarketInfoChanges, IntradayQuote>(HttpStatusCode.OK, "FireAnt's RealTime", quoteChanges, marketInforChange, intradayQuote);
+            // } else
+            // {
+            //     return new ResponseAll<QuoteChanges, MarketInfoChanges, IntradayQuote>(HttpStatusCode.OK, null, quoteChanges, marketInforChange, intradayQuote);
+            // }
+             return new ResponseAll<QuoteChanges, MarketInfoChanges, IntradayQuote>(HttpStatusCode.OK, "FireAnt's RealTime", quoteChanges, marketInforChange, intradayQuote);
         }
     }
 }

@@ -1,0 +1,159 @@
+
+> web@0.0.0 dev
+> vite
+
+
+  VITE v5.1.3  ready in 383 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+
+> web@0.0.0 dev
+> vite --host
+
+
+  VITE v5.1.3  ready in 237 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.1.2:5173/
+  ➜  Network: http://10.8.0.1:5173/
+  ➜  Network: http://100.113.163.60:5173/
+  ➜  Network: http://10.1.86.128:5173/
+
+> web@0.0.0 dev
+> vite --host
+
+
+  VITE v5.1.3  ready in 237 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.1.2:5173/
+  ➜  Network: http://10.8.0.1:5173/
+  ➜  Network: http://100.113.163.60:5173/
+  ➜  Network: http://172.19.0.1:5173/
+  ➜  Network: http://10.1.86.128:5173/
+
+> web@0.0.0 dev
+> vite --host
+
+
+  VITE v5.1.3  ready in 238 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.1.2:5173/
+  ➜  Network: http://10.8.0.1:5173/
+  ➜  Network: http://100.113.163.60:5173/
+  ➜  Network: http://172.19.0.1:5173/
+  ➜  Network: http://10.1.86.128:5173/
+
+> web@0.0.0 dev
+> vite --host
+
+
+  VITE v5.1.3  ready in 233 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.1.2:5173/
+  ➜  Network: http://10.8.0.1:5173/
+  ➜  Network: http://100.113.163.60:5173/
+  ➜  Network: http://172.19.0.1:5173/
+  ➜  Network: http://10.1.86.128:5173/
+
+> web@0.0.0 dev
+> vite --host
+
+
+  VITE v5.1.3  ready in 268 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.1.2:5173/
+  ➜  Network: http://10.8.0.1:5173/
+  ➜  Network: http://100.113.163.60:5173/
+  ➜  Network: http://172.19.0.1:5173/
+  ➜  Network: http://10.1.86.128:5173/
+
+> web@0.0.0 dev
+> vite --host
+
+
+  VITE v5.1.3  ready in 286 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://192.168.1.2:5173/
+  ➜  Network: http://10.8.0.1:5173/
+  ➜  Network: http://100.113.163.60:5173/
+  ➜  Network: http://172.19.0.1:5173/
+  ➜  Network: http://10.1.86.128:5173/
+9:04:49 AM [vite] hmr update /src/components/page/stockStatistics/componentUI/table.jsx, /src/index.css
+9:05:26 AM [vite] hmr update /src/components/page/stockStatistics/componentUI/table.jsx, /src/index.css
+9:05:26 AM [vite] Internal server error: /home/shota72fx/dofins/Dofins_fe/src/components/page/stockStatistics/componentUI/table.jsx: Missing semicolon. (236:31)
+
+  234 |       }
+  235 |
+> 236 |       console.log(priceAverage))
+      |                                ^
+  237 |
+  238 |       const obj = {
+  239 |         name: record.symbol,
+  Plugin: vite:react-babel
+  File: /home/shota72fx/dofins/Dofins_fe/src/components/page/stockStatistics/componentUI/table.jsx:236:31
+  238|        const obj = {
+  239|          name: record.symbol,
+  240|          today: (<div style={colorChange}>{priceAverage === null ? Util.formatNumber(stockHistory?.exchange === "UPCOM" ? stockHistory?.PriceAverage : stockHistory?.PriceClose) : Util.formatNumber(priceAverage)}</div>),
+     |                                                                                                                                                                                         ^
+  241|          action: (
+  242|            <Button
+      at constructor (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:353:19)
+      at JSXParserMixin.raise (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:3277:19)
+      at JSXParserMixin.semicolon (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:3598:10)
+      at JSXParserMixin.parseExpressionStatement (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12755:10)
+      at JSXParserMixin.parseStatementContent (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12366:19)
+      at JSXParserMixin.parseStatementLike (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12229:17)
+      at JSXParserMixin.parseStatementListItem (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12209:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12786:61)
+      at JSXParserMixin.parseBlockBody (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12779:10)
+      at JSXParserMixin.parseBlock (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12767:10)
+      at JSXParserMixin.parseFunctionBody (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:11606:24)
+      at JSXParserMixin.parseArrowExpression (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:11581:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:11201:12)
+      at JSXParserMixin.parseExprAtom (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10847:23)
+      at JSXParserMixin.parseExprAtom (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:6821:20)
+      at JSXParserMixin.parseExprSubscripts (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10580:23)
+      at JSXParserMixin.parseUpdate (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10563:21)
+      at JSXParserMixin.parseMaybeUnary (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10541:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10395:61)
+      at JSXParserMixin.parseExprOps (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10400:23)
+      at JSXParserMixin.parseMaybeConditional (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10377:23)
+      at JSXParserMixin.parseMaybeAssign (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10338:21)
+      at /home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10308:39
+      at JSXParserMixin.allowInAnd (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:11926:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10308:17)
+      at JSXParserMixin.parseExprListItem (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:11686:18)
+      at JSXParserMixin.parseCallExpressionArguments (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10766:22)
+      at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10683:29)
+      at JSXParserMixin.parseSubscript (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10620:19)
+      at JSXParserMixin.parseSubscripts (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10593:19)
+      at JSXParserMixin.parseExprSubscripts (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10584:17)
+      at JSXParserMixin.parseUpdate (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10563:21)
+      at JSXParserMixin.parseMaybeUnary (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10541:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10395:61)
+      at JSXParserMixin.parseExprOps (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10400:23)
+      at JSXParserMixin.parseMaybeConditional (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10377:23)
+      at JSXParserMixin.parseMaybeAssign (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10338:21)
+      at /home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10308:39
+      at JSXParserMixin.allowInAnd (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:11921:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:10308:17)
+      at JSXParserMixin.parseVar (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12854:91)
+      at JSXParserMixin.parseVarStatement (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12700:10)
+      at JSXParserMixin.parseStatementContent (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12312:23)
+      at JSXParserMixin.parseStatementLike (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12229:17)
+      at JSXParserMixin.parseStatementListItem (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12209:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12786:61)
+      at JSXParserMixin.parseBlockBody (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12779:10)
+      at JSXParserMixin.parseBlock (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:12767:10)
+      at JSXParserMixin.parseFunctionBody (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:11606:24)
+      at JSXParserMixin.parseArrowExpression (/home/shota72fx/dofins/Dofins_fe/node_modules/@babel/parser/lib/index.js:11581:10)
+9:05:31 AM [vite] hmr update /src/components/page/stockStatistics/componentUI/table.jsx, /src/index.css
+9:06:05 AM [vite] hmr update /src/components/page/stockStatistics/componentUI/table.jsx, /src/index.css
+9:31:53 AM [vite] hmr update /src/components/page/stockStatistics/componentUI/table.jsx, /src/index.css
+9:32:17 AM [vite] hmr update /src/components/page/stockStatistics/componentUI/table.jsx, /src/index.css

@@ -4,8 +4,8 @@ from sqlalchemy.pool import NullPool
 # from config.settings import settings
 
 
-#SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://admin:1@192.168.1.107:5432/dofin"
-SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://admin:1@db:5432/dofin"
+SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://admin:1@localhost:5432/dofin"
+#SQLALCHEMY_DATABASE_URI = "postgresql+psycopg2://admin:1@db:5432/dofin"
 
 
 def get_engine():
