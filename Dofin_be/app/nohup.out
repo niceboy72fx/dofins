@@ -7117,3 +7117,1083 @@ INFO:     116.111.118.183:60219 - "GET /api/v1/data/display?page_number=4&items_
 INFO:     116.111.118.183:60333 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
 INFO:     116.111.118.183:60456 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
 INFO:     116.111.118.183:60512 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:10730 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:30192 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:61969 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:61969 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62173 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62208 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62484 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62484 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62547 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62547 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62547 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62560 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62560 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62560 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62560 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62564 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62566 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62576 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62576 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62589 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "OPTIONS /api/v1/data/dofin_selected?&page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "GET /api/v1/data/dofin_selected?&page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "OPTIONS /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "GET /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "OPTIONS /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "OPTIONS /api/v1/data/dofin_selected?&page_number=6&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "GET /api/v1/data/dofin_selected?&page_number=6&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62616 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62644 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:62644 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53472 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53472 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53475 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53475 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53475 - "OPTIONS /api/v1/data/display?page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53475 - "GET /api/v1/data/display?page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53475 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53478 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53478 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53478 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53478 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53478 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53478 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53503 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53503 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:20586 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:20634 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:63275 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63275 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63286 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63286 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63286 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63339 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63339 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63339 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63358 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63358 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63382 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63480 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53541 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63480 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53541 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63639 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53546 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53546 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63657 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53550 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63657 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53550 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63664 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53553 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63664 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53553 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63664 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53553 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53553 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63664 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63676 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53556 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63676 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53556 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63676 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53556 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63684 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53556 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63684 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53556 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63684 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53556 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63697 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63724 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63724 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63737 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53559 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63737 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53559 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63737 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53559 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63752 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53563 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63752 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53563 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63752 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53563 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63762 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63762 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63762 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63762 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63762 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63762 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63776 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63776 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53566 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63776 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53566 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63776 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53566 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63776 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63776 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63789 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53569 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63789 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53569 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63806 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63806 - "OPTIONS /api/v1/data/display?page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63806 - "GET /api/v1/data/display?page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63806 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63835 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:63849 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53582 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53584 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53584 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53584 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53598 - "OPTIONS /api/v1/data/display?page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53598 - "GET /api/v1/data/display?page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53599 - "OPTIONS /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53599 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53599 - "OPTIONS /api/v1/data/dofin_selected?industries=X%C3%A2y%20d%E1%BB%B1ng&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53599 - "GET /api/v1/data/dofin_selected?industries=X%C3%A2y%20d%E1%BB%B1ng&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53599 - "GET /api/v1/data/display?page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53599 - "GET /api/v1/data/dofin_selected?industries=X%C3%A2y%20d%E1%BB%B1ng&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53599 - "GET /api/v1/data/display?page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     183.80.131.133:53613 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53613 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64267 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64267 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64269 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64269 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64269 - "OPTIONS /api/v1/data/dofin_selected?industries=Y%20t%E1%BA%BF&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64269 - "GET /api/v1/data/dofin_selected?industries=Y%20t%E1%BA%BF&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64269 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64269 - "OPTIONS /api/v1/data/display?page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64269 - "GET /api/v1/data/display?page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64269 - "OPTIONS /api/v1/data/dofin_selected?industries=Y%20t%E1%BA%BF&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64269 - "GET /api/v1/data/dofin_selected?industries=Y%20t%E1%BA%BF&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64298 - "OPTIONS /api/v1/data/dofin_selected?industries=%C3%94%20t%C3%B4%20-%20linh%20ki%E1%BB%87n&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64298 - "GET /api/v1/data/dofin_selected?industries=%C3%94%20t%C3%B4%20-%20linh%20ki%E1%BB%87n&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64298 - "OPTIONS /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64298 - "GET /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64298 - "OPTIONS /api/v1/data/dofin_selected?industries=Ch%C4%83n%20nu%C3%B4i&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64298 - "GET /api/v1/data/dofin_selected?industries=Ch%C4%83n%20nu%C3%B4i&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64298 - "OPTIONS /api/v1/data/dofin_selected?industries=B%E1%BA%A3o%20hi%E1%BB%83m&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64298 - "GET /api/v1/data/dofin_selected?industries=B%E1%BA%A3o%20hi%E1%BB%83m&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64298 - "GET /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64298 - "OPTIONS /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64298 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64298 - "OPTIONS /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64298 - "GET /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64323 - "OPTIONS /api/v1/data/display?page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64323 - "GET /api/v1/data/display?page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64323 - "GET /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64352 - "GET /api/v1/data/display?page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64352 - "GET /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64352 - "GET /api/v1/data/display?page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64352 - "GET /api/v1/data/display?page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64352 - "GET /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64352 - "GET /api/v1/data/display?page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64352 - "GET /api/v1/data/display?page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64352 - "GET /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64352 - "OPTIONS /api/v1/data/dofin_selected?industries=%C4%90i%E1%BB%87n&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64352 - "GET /api/v1/data/dofin_selected?industries=%C4%90i%E1%BB%87n&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64383 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64383 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64383 - "GET /api/v1/data/display?page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64383 - "GET /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64429 - "GET /api/v1/data/display?page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64437 - "GET /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64437 - "OPTIONS /api/v1/data/dofin_selected?industries=X%C3%A2y%20d%E1%BB%B1ng&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64437 - "GET /api/v1/data/dofin_selected?industries=X%C3%A2y%20d%E1%BB%B1ng&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64437 - "OPTIONS /api/v1/data/dofin_selected?industries=%C4%90%E1%BB%93%20u%E1%BB%91ng%20-%20h%C3%A0ng%20TD&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64437 - "GET /api/v1/data/dofin_selected?industries=%C4%90%E1%BB%93%20u%E1%BB%91ng%20-%20h%C3%A0ng%20TD&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64478 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64478 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64478 - "OPTIONS /api/v1/data/dofin_selected?industries=%C4%90i%E1%BB%87n&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64478 - "GET /api/v1/data/dofin_selected?industries=%C4%90i%E1%BB%87n&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "OPTIONS /api/v1/data/dofin_selected?industries=V%E1%BA%ADn%20t%E1%BA%A3i%20-%20kho%20b%C3%A3i&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "GET /api/v1/data/dofin_selected?industries=V%E1%BA%ADn%20t%E1%BA%A3i%20-%20kho%20b%C3%A3i&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "OPTIONS /api/v1/data/dofin_selected?industries=M%C3%ADa%20%C4%91%C6%B0%E1%BB%9Dng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "GET /api/v1/data/dofin_selected?industries=M%C3%ADa%20%C4%91%C6%B0%E1%BB%9Dng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "OPTIONS /api/v1/data/dofin_selected?industries=B%E1%BA%A3o%20hi%E1%BB%83m&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "GET /api/v1/data/dofin_selected?industries=B%E1%BA%A3o%20hi%E1%BB%83m&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "GET /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "GET /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "GET /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "GET /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "GET /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "GET /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "GET /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64495 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64654 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     183.80.131.133:53914 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64663 - "OPTIONS /api/v1/data/dofin_selected?industries=B%E1%BA%A3o%20hi%E1%BB%83m&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64663 - "GET /api/v1/data/dofin_selected?industries=B%E1%BA%A3o%20hi%E1%BB%83m&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "OPTIONS /api/v1/data/dofin_selected?industries=%C3%94%20t%C3%B4%20-%20linh%20ki%E1%BB%87n&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "GET /api/v1/data/dofin_selected?industries=%C3%94%20t%C3%B4%20-%20linh%20ki%E1%BB%87n&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "OPTIONS /api/v1/data/dofin_selected?industries=Th%E1%BB%A7y%20s%E1%BA%A3n&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "GET /api/v1/data/dofin_selected?industries=Th%E1%BB%A7y%20s%E1%BA%A3n&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "GET /api/v1/data/dofin_selected?industries=Th%E1%BB%A7y%20s%E1%BA%A3n&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "GET /api/v1/data/display?page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "OPTIONS /api/v1/data/dofin_selected?industries=Th%E1%BB%A7y%20s%E1%BA%A3n&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "GET /api/v1/data/dofin_selected?industries=Th%E1%BB%A7y%20s%E1%BA%A3n&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "OPTIONS /api/v1/data/dofin_selected?industries=%C4%90i%E1%BB%87n&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "GET /api/v1/data/dofin_selected?industries=%C4%90i%E1%BB%87n&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "GET /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "OPTIONS /api/v1/data/display?page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "GET /api/v1/data/display?page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64676 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64717 - "GET /api/v1/data/display?page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64717 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64717 - "OPTIONS /api/v1/data/dofin_selected?industries=Y%20t%E1%BA%BF&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64717 - "GET /api/v1/data/dofin_selected?industries=Y%20t%E1%BA%BF&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64717 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64717 - "GET /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64717 - "GET /api/v1/data/dofin_selected?industries=%C4%90i%E1%BB%87n&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64738 - "GET /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64738 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64738 - "GET /api/v1/data/dofin_selected?industries=B%E1%BA%A3o%20hi%E1%BB%83m&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:12496 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:42632 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:64787 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64787 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64787 - "OPTIONS /api/v1/data/dofin_selected?industries=Y%20t%E1%BA%BF&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64787 - "GET /api/v1/data/dofin_selected?industries=Y%20t%E1%BA%BF&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64796 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64796 - "OPTIONS /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64796 - "GET /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64802 - "OPTIONS /api/v1/data/dofin_selected?industries=Cao%20su&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64802 - "GET /api/v1/data/dofin_selected?industries=Cao%20su&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64836 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64836 - "GET /api/v1/data/dofin_selected?industries=Y%20t%E1%BA%BF&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64857 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64857 - "OPTIONS /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64857 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64857 - "GET /api/v1/data/dofin_selected?industries=B%E1%BA%A3o%20hi%E1%BB%83m&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64963 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64963 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64963 - "OPTIONS /api/v1/data/dofin_selected?industries=X%C3%A2y%20d%E1%BB%B1ng&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64963 - "GET /api/v1/data/dofin_selected?industries=X%C3%A2y%20d%E1%BB%B1ng&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65005 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65005 - "OPTIONS /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65005 - "GET /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65005 - "OPTIONS /api/v1/data/dofin_selected?industries=%C3%94%20t%C3%B4%20-%20linh%20ki%E1%BB%87n&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65005 - "GET /api/v1/data/dofin_selected?industries=%C3%94%20t%C3%B4%20-%20linh%20ki%E1%BB%87n&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65037 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65041 - "GET /api/v1/data/dofin_selected?industries=Y%20t%E1%BA%BF&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65046 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65046 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65046 - "OPTIONS /api/v1/data/dofin_selected?industries=Ch%C4%83n%20nu%C3%B4i&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65046 - "GET /api/v1/data/dofin_selected?industries=Ch%C4%83n%20nu%C3%B4i&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65076 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65076 - "GET /api/v1/data/dofin_selected?&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65076 - "GET /api/v1/data/dofin_selected?industries=B%E1%BA%A3o%20hi%E1%BB%83m&page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65145 - "OPTIONS /api/v1/data/display?page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:65145 - "GET /api/v1/data/display?page_number=4&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:21882 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:46742 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:33452 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:33466 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:33432 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:52078 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     115.231.78.10:28303 - "GET / HTTP/1.1" 404 Not Found
+INFO:     115.231.78.10:27285 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     115.231.78.10:27621 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:17638 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:26936 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     188.166.0.108:44266 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:57008 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:57022 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     80.82.77.139:42918 - "GET / HTTP/1.1" 404 Not Found
+INFO:     80.82.77.139:44348 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     170.64.214.114:38870 - "GET /?v=1&ip=116.111.118.183&port=8000 HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:40106 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:59528 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:28068 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:24180 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:62146 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:63596 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:59992 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:22254 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:16190 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:45732 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.248.133.113:60642 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.248.133.113:44788 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.71.229.198:60568 - "GET /aaa9 HTTP/1.1" 404 Not Found
+INFO:     167.71.229.198:60576 - "GET /aab8 HTTP/1.1" 404 Not Found
+INFO:     167.71.229.198:60584 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:58270 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:38040 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     52.76.71.100:11552 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     185.191.126.213:47438 - "GET / HTTP/1.1" 404 Not Found
+INFO:     116.111.118.183:61557 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:61557 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:61557 - "OPTIONS /api/v1/data/display?page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:61557 - "GET /api/v1/data/display?page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:61557 - "OPTIONS /api/v1/data/display?page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:61557 - "GET /api/v1/data/display?page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:61557 - "OPTIONS /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:61557 - "GET /api/v1/data/dofin_selected?&page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:61557 - "GET /api/v1/data/display?page_number=3&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:47187 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:47197 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41453 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41453 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41453 - "OPTIONS /api/v1/data/dofin_selected?industries=X%C3%A2y%20d%E1%BB%B1ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41469 - "GET /api/v1/data/dofin_selected?industries=X%C3%A2y%20d%E1%BB%B1ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41469 - "OPTIONS /api/v1/data/dofin_selected?industries=BDS%20nh%C3%A0%20%E1%BB%9F&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41453 - "GET /api/v1/data/dofin_selected?industries=BDS%20nh%C3%A0%20%E1%BB%9F&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41453 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41453 - "OPTIONS /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41469 - "GET /api/v1/data/dofin_selected?&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41469 - "OPTIONS /api/v1/data/dofin_selected?industries=Y%20t%E1%BA%BF&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41453 - "GET /api/v1/data/dofin_selected?industries=Y%20t%E1%BA%BF&page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:43157 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:55937 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:55937 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:55937 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41237 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41237 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:52661 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:56545 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:56545 - "OPTIONS /api/v1/data/dofin_selected?industries=H%C3%B3a%20ch%E1%BA%A5t&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:56545 - "GET /api/v1/data/dofin_selected?industries=H%C3%B3a%20ch%E1%BA%A5t&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:56545 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:37547 - "GET /api/v1/data/dofin_selected?industries=H%C3%B3a%20ch%E1%BA%A5t&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:37547 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:39931 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:53223 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:53223 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:60696 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:32242 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     118.70.15.11:40955 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:40955 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:40959 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:40995 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:40995 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:40995 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:40995 - "OPTIONS /api/v1/data/dofin_selected?industries=%C3%94%20t%C3%B4%20-%20linh%20ki%E1%BB%87n&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:40997 - "GET /api/v1/data/dofin_selected?industries=%C3%94%20t%C3%B4%20-%20linh%20ki%E1%BB%87n&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:57851 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:57851 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:57865 - "OPTIONS /api/v1/data/dofin_selected?industries=V%E1%BA%ADn%20t%E1%BA%A3i%20-%20kho%20b%C3%A3i&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:57865 - "GET /api/v1/data/dofin_selected?industries=V%E1%BA%ADn%20t%E1%BA%A3i%20-%20kho%20b%C3%A3i&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:37564 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:30596 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     118.70.15.11:41051 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41051 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41051 - "GET /api/v1/data/dofin_selected?industries=V%E1%BA%ADn%20t%E1%BA%A3i%20-%20kho%20b%C3%A3i&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:41051 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:37685 - "GET /api/v1/data/dofin_selected?industries=V%E1%BA%ADn%20t%E1%BA%A3i%20-%20kho%20b%C3%A3i&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:37685 - "OPTIONS /api/v1/data/dofin_selected?industries=%C3%94%20t%C3%B4%20-%20linh%20ki%E1%BB%87n&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:37685 - "GET /api/v1/data/dofin_selected?industries=%C3%94%20t%C3%B4%20-%20linh%20ki%E1%BB%87n&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:37685 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:45745 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:45745 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:45745 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:57735 - "OPTIONS /api/v1/data/display?page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:57735 - "GET /api/v1/data/display?page_number=5&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:59372 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:61210 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     118.70.15.11:43169 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:43169 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:43189 - "GET / HTTP/1.1" 404 Not Found
+INFO:     118.70.15.11:43189 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     118.70.15.11:43203 - "GET /api/v1/docs HTTP/1.1" 200 OK
+INFO:     118.70.15.11:43203 - "GET /api/v1/openapi.json HTTP/1.1" 200 OK
+INFO:     118.70.15.11:38205 - "GET /api/v1/data/display?page_number=1&items_per_page=1&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:50509 - "GET /api/v1/data/display?page_number=1&items_per_page=1&d1_limit=1&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:59901 - "GET /api/v1/data/display?page_number=1&items_per_page=100&d1_limit=1&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:26694 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:56206 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:5128 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:2152 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:61354 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:61364 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     80.240.126.112:47618 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:35538 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:35544 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:25464 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:25480 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:6558 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:19118 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:35180 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:19406 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:58998 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:45048 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     65.49.1.19:50003 - "GET / HTTP/1.1" 404 Not Found
+INFO:     65.49.1.10:60431 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.22:22289 - "GET /?format=json HTTP/1.1" 404 Not Found
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:7362 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:7376 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:1970 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:38162 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.216:54382 - "GET / HTTP/1.1" 404 Not Found
+INFO:     162.142.125.216:41948 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:48380 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:10802 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     142.4.218.114:58123 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:23768 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:53184 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:10574 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:37128 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:52644 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:52652 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     103.203.57.20:56706 - "GET / HTTP/1.1" 404 Not Found
+INFO:     35.195.123.144:44338 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:60900 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:60916 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     198.235.24.10:64238 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:13244 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:61698 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:23426 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:53264 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     5.196.102.67:43711 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:31878 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:64348 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:7732 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:22684 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:26230 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:15646 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:20466 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:61940 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:18048 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:18106 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:60342 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:33888 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:1926 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:32832 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     60.205.214.84:33900 - "GET /phpMyAdmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:34248 - "GET /phpmyadmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:38252 - "GET /phpMyAdmin-2.11.4/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:46732 - "GET /phpMyAdmin-2.11.3/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:52370 - "GET /phpMyAdmin-2.10.0.2/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:52630 - "GET /phpMyAdmin-2.10.3/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:52958 - "GET /phpMyAdmin-2.8.0.2/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:59004 - "GET /phpMyAdmin-2.10.2/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:59352 - "GET /phpMyAdmin-2.11.9.2/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:34774 - "GET /phpMyAdmin-2.11.0/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:43896 - "GET /phpMyAdmin-2.11.7/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:49612 - "GET /phpMyAdmin-2.11.1.2/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:49856 - "GET /pma/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:50082 - "GET /phpMyAdmin3/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:56526 - "GET /myadmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:57952 - "GET /MyAdmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:34500 - "GET /PHPMYADMIN/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:40518 - "GET /mysqladmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:47148 - "GET /SQL/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:53498 - "GET /phpMyAdmin-2.5.5-pl1/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:53828 - "GET /phpMyAdmin-2.5.5/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:59658 - "GET /phpMyAdmin-2.5.4/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:59910 - "GET /phpMyAdmin-2.5.7-pl1/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:34730 - "GET /admin/pma/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:37592 - "GET /phpMyAdmin-2/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:37844 - "GET /web/phpMyAdmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:43288 - "GET /webadmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:43724 - "GET /admin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:44002 - "GET /dbadmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:49978 - "GET /mysql/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:40594 - "GET /phpma/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:46844 - "GET /sqlweb/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:47194 - "GET /webdb/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:53046 - "GET /websql/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:53280 - "GET /_phpMyAdmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:53556 - "GET /php/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:59270 - "GET /admin/phpmyadmin/scripts/setup.txt HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:59422 - "GET /db/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:43618 - "GET /sqlmanager/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:43998 - "GET /mysqlmanager/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:49990 - "GET /phpmanager/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:50238 - "GET /php-myadmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:50518 - "GET /phpmy-admin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     60.205.214.84:56250 - "GET /mysql-admin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     199.45.155.4:29520 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:35392 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:11928 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:11934 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     87.236.176.102:50407 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:6416 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:6418 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:9904 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:39246 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:58774 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:2510 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:2544 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:2554 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:41546 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:41558 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:61686 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:23702 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:32936 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:4324 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:32834 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:38320 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:33266 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:33276 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     185.191.126.213:60214 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:45960 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:34810 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     106.75.65.24:47898 - "GET / HTTP/1.1" 404 Not Found
+INFO:     106.75.168.5:15798 - "GET / HTTP/1.1" 404 Not Found
+INFO:     106.75.168.5:15802 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:52092 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:32432 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:10510 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:33046 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:3112 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:30470 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:22562 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:42620 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:19408 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:55558 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:45066 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:37842 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     139.162.155.225:59726 - "GET / HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:59742 - "GET / HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:54686 - "GET /server HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:54700 - "GET /version HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:54712 - "GET /.vscode/sftp.json HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:54722 - "GET /about HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:54724 - "GET /debug/default/view?panel=config HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:54736 - "GET /v2/_catalog HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:54744 - "GET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:54754 - "GET /server-status HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:54758 - "GET /_all_dbs HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:54764 - "GET /.DS_Store HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:54780 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:35064 - "GET /.git/config HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:35076 - "GET /s/338313e2831313e2131313e2631313/_/%3B/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:35078 - "GET /config.json HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:35084 - "GET /telescope/requests HTTP/1.1" 404 Not Found
+INFO:     139.162.155.225:35086 - "GET /?rest_route=/wp/v2/users/ HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:25570 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:63814 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:7194 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:61266 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     205.210.31.65:62728 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:34226 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:5664 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:47388 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:47392 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:54670 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:48336 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:52744 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:52744 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:52744 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:52744 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:52744 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:47736 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:39852 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:38250 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:38280 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     65.49.1.19:48267 - "GET / HTTP/1.1" 404 Not Found
+INFO:     65.49.1.12:47547 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     65.49.1.13:37469 - "GET /?format=json HTTP/1.1" 404 Not Found
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:56660 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:56686 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     104.131.144.38:42776 - "GET / HTTP/1.1" 404 Not Found
+INFO:     116.111.118.183:64233 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:64233 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:58356 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:58356 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     185.191.126.213:54400 - "GET / HTTP/1.1" 404 Not Found
+INFO:     120.82.67.16:42526 - "GET /phpMyAdmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:43080 - "GET /phpmyadmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:43770 - "GET /phpMyAdmin-2.11.4/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:44144 - "GET /phpMyAdmin-2.11.3/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:44672 - "GET /phpMyAdmin-2.10.0.2/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:44804 - "GET /phpMyAdmin-2.10.3/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:44908 - "GET /phpMyAdmin-2.8.0.2/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:45002 - "GET /phpMyAdmin-2.10.2/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:45072 - "GET /phpMyAdmin-2.11.9.2/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:46720 - "GET /phpMyAdmin-2.11.0/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:52288 - "GET /phpMyAdmin-2.11.7/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     199.45.155.4:33550 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:33556 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     120.82.67.16:57786 - "GET /phpMyAdmin-2.11.1.2/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:33018 - "GET /pma/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:33388 - "GET /phpMyAdmin3/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:33554 - "GET /myadmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:33710 - "GET /MyAdmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:34582 - "GET /PHPMYADMIN/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:41130 - "GET /SQL/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:51024 - "GET /phpMyAdmin-2.5.5-pl1/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:52574 - "GET /phpMyAdmin-2.5.5/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:53526 - "GET /phpMyAdmin-2.5.4/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:54222 - "GET /phpMyAdmin-2.5.7-pl1/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:54756 - "GET /admin/pma/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:55094 - "GET /phpMyAdmin-2/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:55316 - "GET /web/phpMyAdmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:57480 - "GET /webadmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:34826 - "GET /admin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:38708 - "GET /dbadmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:40114 - "GET /mysql/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:41694 - "GET /phpMyAdmin2/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:42376 - "GET /phpma/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:42852 - "GET /sqlweb/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:43092 - "GET /webdb/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:43232 - "GET /websql/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:44512 - "GET /_phpMyAdmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:51226 - "GET /php/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:54826 - "GET /admin/phpmyadmin/scripts/setup.txt HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:55702 - "GET /db/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:56756 - "GET /sqlmanager/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:57394 - "GET /mysqlmanager/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:57720 - "GET /phpmanager/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:58016 - "GET /php-myadmin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:58212 - "GET /phpmy-admin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     120.82.67.16:58394 - "GET /mysql-admin/scripts/setup.php HTTP/1.0" 404 Not Found
+INFO:     199.45.155.4:35200 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:35214 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:50204 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:50204 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:41314 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:41328 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:41328 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:41328 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:41328 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:38286 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:38286 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:45816 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:45816 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:48174 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:48174 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56344 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56344 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56360 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56364 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56364 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56370 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42104 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42104 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42118 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42122 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42122 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:39796 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:39796 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:39796 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:39796 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:28216 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:23260 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:60010 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:60010 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42074 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42074 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:39938 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:39938 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37852 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37852 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42448 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42448 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42448 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42448 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:53592 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:53592 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:43868 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:43868 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:58690 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:58690 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:47620 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:47620 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:43792 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:43792 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:51582 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:51582 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:46972 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:46980 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:46980 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:46972 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:54550 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:54550 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:54564 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:45504 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:45504 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42348 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42348 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42348 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42348 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37124 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37124 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37124 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37124 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:47108 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:47108 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:60486 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:60486 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:41230 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:41230 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:56978 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56978 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37158 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37158 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     115.231.78.12:49336 - "GET / HTTP/1.1" 404 Not Found
+INFO:     116.111.118.183:34134 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:34134 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:34134 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:34134 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42602 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42602 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:46008 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:46008 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     115.231.78.12:11278 - "GET / HTTP/1.1" 404 Not Found
+INFO:     115.231.78.12:40242 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     115.231.78.12:26370 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     116.111.118.183:56798 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56798 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:10036 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:8694 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:45176 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:45182 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:42494 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42494 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:35358 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:35358 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:57540 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:57540 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:35216 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:35216 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:35464 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:35464 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56788 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:45544 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:45544 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:46514 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:46514 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:49376 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:49376 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:55800 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:49190 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56992 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56992 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56992 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56992 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56992 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37158 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37158 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=2&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37158 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:52488 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:52488 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:52488 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:52488 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     8.222.214.225:40828 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:42086 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:42096 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:52682 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:52682 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:43542 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:43542 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:55900 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:55900 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:40492 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:40492 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56616 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42832 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42832 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:38022 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:38022 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:35488 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:35488 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:50252 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:50252 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:50252 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:50252 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:56856 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:16602 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:57820 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:57820 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:58520 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:58520 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:53464 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:53464 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:53464 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:53464 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56134 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:56134 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:57138 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:57138 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:60270 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:27662 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:50404 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:50404 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:39784 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:39784 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:48320 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:45376 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:46344 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:35608 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:35608 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:53232 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:53232 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37948 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:40578 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:40578 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:52624 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:51008 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:51008 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:51008 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:51008 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:41688 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:41688 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     118.123.105.86:35700 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:45842 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     118.123.105.86:36534 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:28634 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     118.123.105.86:36656 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     118.123.105.86:37112 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+INFO:     167.94.138.116:37366 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.47:42282 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:41168 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:41168 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:40836 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:40836 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:34710 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:34710 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:34710 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:34710 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:50696 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:50696 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37260 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37260 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:60854 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:60854 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:60868 - "OPTIONS /api/v1/data/dofin_selected?industries=Th%E1%BB%A7y%20s%E1%BA%A3n&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:60868 - "GET /api/v1/data/dofin_selected?industries=Th%E1%BB%A7y%20s%E1%BA%A3n&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:60868 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:60868 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:13558 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:13566 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:49998 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:49998 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:49998 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:49998 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:40130 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:54016 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:58688 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:58688 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:58688 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:58688 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:33968 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:33968 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:60552 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:60552 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:55174 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:55174 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:55568 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:55572 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:37138 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37150 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37138 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:37150 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:57900 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:50754 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:58080 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:58080 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:45728 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:45728 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:49628 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:49628 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:52326 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:52326 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:50960 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:57716 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:57716 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:43328 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:43328 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:51490 - "OPTIONS /api/v1/data/dofin_selected?industries=X%C3%A2y%20d%E1%BB%B1ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:43328 - "GET /api/v1/data/dofin_selected?industries=X%C3%A2y%20d%E1%BB%B1ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:35430 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:35430 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42258 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:42258 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:57416 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:57416 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:54604 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:54604 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:39084 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:39084 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:41828 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:41828 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:47934 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:47934 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:47938 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:47938 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:47922 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:47922 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:58544 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:58544 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:51070 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:39918 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:41136 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:5348 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:6250 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:6260 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:60788 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:29736 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:49922 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:49936 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:47340 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:31958 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:21878 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:21888 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     199.45.155.4:19522 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:19526 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     172.214.141.49:58939 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:3346 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:3352 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     116.111.118.183:38402 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:38402 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:38402 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     116.111.118.183:38402 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK

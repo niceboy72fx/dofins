@@ -69,11 +69,11 @@ const StockInfor = ({ dataStock }) => {
       <div style={{ fontSize: "1.2rem" }} className="font-bold text-white ">
         {dataStock.symbol} - {dataStock.company}
       </div>
-      <div className=" bg-slate-900 p-10  flex flex-row my-8 items-center justify-center ">
+      <div className=" bg-slate-900 p-3  flex flex-row my-2 items-center justify-center ">
         <div className=" round-xl shadow-2xl p-5 mx-5 shadow-blue-950">
           <div className=" px-10 mx-10 my-5 flex flex-row items-center justify-center">
             <div
-              style={{ fontSize: "3.2rem" }}
+              style={{ fontSize: "2.2rem" }}
               className="text-white font-bold m-2"
             >
               {Util.formatNumber(
@@ -91,7 +91,7 @@ const StockInfor = ({ dataStock }) => {
               {row.map((item, index) => (
                 <div
                   key={index}
-                  className="flex flex-row items-centerpy-3 my-2"
+                  className="flex flex-row items-centerpy-3 my-2 text-sm"
                 >
                   <div>{item.key} :</div>
                   <div className=" ml-3 ">{item.value}</div>
@@ -101,7 +101,7 @@ const StockInfor = ({ dataStock }) => {
           </div>
         </div>
         <div className=" text-white  ">
-          <div className="flex flex-row items-center justify-center">
+          <div className="flex flex-col items-center justify-center">
             <div className="">
               <Gauge
                 value={freeShare}
@@ -109,8 +109,8 @@ const StockInfor = ({ dataStock }) => {
                 endAngle={360}
                 innerRadius="0%"
                 outerRadius="100%"
-                width={350}
-                height={400}
+                width={300}
+                height={350}
                 sx={{
                   [`tspan`]: {
                     display: "none",
@@ -127,7 +127,7 @@ const StockInfor = ({ dataStock }) => {
             <div>
               {data.map((item) => {
                 return (
-                  <div className="flex items-center justify-start  mx-4">
+                  <div className="flex items-center justify-start text-sm  mx-4">
                     <p
                       style={{ backgroundColor: item.color }}
                       className=" p-1.5"

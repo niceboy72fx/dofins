@@ -21,6 +21,9 @@ builder.Services.AddSingleton<IAuthentication, AuthenticationServices>();
 
 builder.Services.AddSingleton<IRealtime, RealtimeServices>();
 
+builder.Services.AddSingleton<ITest, TestServices>();
+
+
 
 var app = builder.Build();
 
@@ -45,7 +48,8 @@ app.Map("/fireAnt", async context =>
             var stockServices = await realtimeServices.FireAnt(token);
             while (true)
             {
-                if (stockServices.Message != null) {
+                if (stockServices.Message != null)
+                {
                     var message = Newtonsoft.Json.JsonConvert.SerializeObject(stockServices);
                     var bytes = Encoding.UTF8.GetBytes(message);
                     var arraySegment = new ArraySegment<byte>(bytes, 0, bytes.Length);
@@ -57,7 +61,7 @@ app.Map("/fireAnt", async context =>
                     {
                         break;
                     }
-                }               
+                }
                 await Task.Delay(400);
             }
         }
@@ -67,6 +71,46 @@ app.Map("/fireAnt", async context =>
         context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
     }
 });
+
+
+app.Map("/fireAntTest", async context =>
+{
+    if (context.WebSockets.IsWebSocketRequest)
+    {
+        using var ws = await context.WebSockets.AcceptWebSocketAsync();
+        var authenticationServices = app.Services.GetRequiredService<IAuthentication>();
+        var realtimeServices = app.Services.GetRequiredService<IRealtime>();
+        string token = await authenticationServices.GetTokenFireAnt();
+
+        if (string.IsNullOrEmpty(token))
+        {
+            Console.WriteLine("Failed to retrieve token.");
+            context.Response.StatusCode = (int)HttpStatusCode.Unauthorized;
+            return;
+        }
+        await realtimeServices.FireAntTest(token, ws);
+    }
+    else
+    {
+        context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+    }
+});
+
+
+app.Map("/fireAntMorkTest", async context =>
+{
+    if (context.WebSockets.IsWebSocketRequest)
+    {
+        using var ws = await context.WebSockets.AcceptWebSocketAsync();
+        var realtimeServices = app.Services.GetRequiredService<ITest>();
+        await realtimeServices.FireAntMorkTest(ws);
+    }
+    else
+    {
+        context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+    }
+});
+
 
 
 await app.RunAsync();

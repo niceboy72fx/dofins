@@ -14,7 +14,7 @@ const PopUpForm = ({ emits }) => {
   };
 
   return (
-    <div className=" bg-slate-900 p-5 rounded-lg shadow-2xl  shadow-blue-950">
+    <div className=" bg-slate-900 p-5 rounded-sm shadow-2xl  shadow-blue-950">
       <div className="float-end text-white">
         <HighlightOffIcon sx={{ color: "white" }} onClick={handleClosed} />
       </div>

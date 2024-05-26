@@ -53,14 +53,14 @@ const StockStatistics = ({ dofins }) => {
   }, [params, dofins, industries]);
 
   return (
-    <div className=" p-3 shadow-2xl rounded-lg w-full  shadow-blue-500">
+    <div className="  shadow-[0_10px_100px] rounded-sm w-full  shadow-blue-400">
       <StockStatisticsUI
         data={data}
         setParams={setParams}
         loader={loader}
         dofins={dofins}
-        industries={setIndustries}
-      />
+        setIndustries={setIndustries}
+        industries={industries}/>
     </div>
   );
 };

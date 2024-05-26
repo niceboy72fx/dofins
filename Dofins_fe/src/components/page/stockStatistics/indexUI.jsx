@@ -7,16 +7,17 @@ export default function StockStatisticsUI({
   setParams,
   loader,
   dofins,
-  industries,
+  setIndustries,
+  industries
 }) {
   return (
     <div>
       {dofins ? (
         <div>
-          <SearchUI industries={industries}/>
+          <SearchUI industries={setIndustries}/>
         </div>
       ) : null}
-      <TableUI stockData={data} setParams={setParams} loader={loader} />
+      <TableUI stockData={data} setParams={setParams} loader={loader} industries={industries}  />
     </div>
   );
 }
