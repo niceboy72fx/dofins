@@ -8290,3 +8290,15 @@ INFO:     118.70.15.11:51281 - "GET /api/v1/data/display?page_number=1&items_per
 INFO:     118.70.15.11:55471 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
 INFO:     118.70.15.11:55471 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
 INFO:     118.70.15.11:48009 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     199.45.155.4:36502 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.4:36532 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     118.70.15.11:47727 - "OPTIONS /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:47727 - "GET /api/v1/data/display?page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:47731 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:49427 - "OPTIONS /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:49427 - "GET /api/v1/data/dofin_selected?industries=Ng%C3%A2n%20h%C3%A0ng&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:53337 - "OPTIONS /api/v1/data/dofin_selected?industries=Ch%E1%BB%A9ng%20kho%C3%A1n&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:53337 - "GET /api/v1/data/dofin_selected?industries=Ch%E1%BB%A9ng%20kho%C3%A1n&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:53343 - "OPTIONS /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
+INFO:     118.70.15.11:53343 - "GET /api/v1/data/dofin_selected?&page_number=1&items_per_page=12&d1_limit=7&finance_limit=1 HTTP/1.1" 200 OK
