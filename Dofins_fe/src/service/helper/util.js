@@ -52,7 +52,7 @@ export default class Util {
     });
   }
 
-  static checkWeekendsRealtime(dates) {
+  static checkWeekendsRealtime() {
     const now = new Date();
     const day = now.getDay();
     const hours = now.getHours();

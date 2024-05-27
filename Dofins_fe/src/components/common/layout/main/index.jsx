@@ -38,6 +38,7 @@ const AppBar = styled(MuiAppBar, {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.enteringScreen,
     }),
+    color: "white"
   }),
 }));
 
@@ -97,7 +98,8 @@ export const LayOut = () => {
                 onClick={toggleDrawer}
                 sx={{
                   marginRight: "36px",
-                  ...(open && { display: "none" }),
+                  ...(open && { display: "none",     color: "white"
+                }),
                 }}
               >
                 <MenuIcon sx={{ color: "whitesmoke" }} />
@@ -136,7 +138,7 @@ export const LayOut = () => {
               }}
             >
               <IconButton onClick={toggleDrawer}>
-                <ChevronLeftIcon />
+                <ChevronLeftIcon sx={{                color: 'white'}} />
               </IconButton>
             </Toolbar>
             <Divider />

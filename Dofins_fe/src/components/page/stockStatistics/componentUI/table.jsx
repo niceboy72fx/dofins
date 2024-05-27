@@ -109,7 +109,7 @@ export default function TableUI({ stockData, setParams, loader, industries }) {
   const [listHistoryStock, setListHistoryStock] = React.useState([]);
   const [colorChange, setColorChange] = React.useState({ id: null, style: {} });
   const [pagetable, setPageTable] = React.useState(1);
-  const messages = useWebSocket('ws://116.111.118.183:4000/fireAntMorkTest');
+  const messages = useWebSocket('ws://116.111.118.183:4000/fireAntTest');
 
   React.useEffect(() => {
     setCurrentPage(1);
@@ -174,11 +174,13 @@ export default function TableUI({ stockData, setParams, loader, industries }) {
   }, [stockData]);
 
 
-
   React.useEffect(() => {
-    console.log(messages)
-  }, [messages]);
-
+      if (!Util.checkWeekendsRealtime()){
+        setFilteredMessages(messages);
+      } else {
+        setFilteredMessages([]);
+      }
+    }, [messages]);
   /////////////////////////////////////////
   let previousPriceAverages = {};
   React.useEffect(() => {
@@ -220,7 +222,6 @@ export default function TableUI({ stockData, setParams, loader, industries }) {
         }
       }
 
-      // console.log(stockRealtime?.PriceAverage)
 
 
       let priceAverage = stockRealtime
@@ -228,29 +229,26 @@ export default function TableUI({ stockData, setParams, loader, industries }) {
           ? stockRealtime.PriceAverage
           : stockRealtime.PriceClose
         : null;
-      // if (priceAverageRecord !== null || priceAverage !== undefined) {
-      //   previousPriceAverages[record.symbol] = priceAverageRecord;
+      if (priceAverageRecord !== null || priceAverage !== undefined) {
+        previousPriceAverages[record.symbol] = priceAverageRecord;
+        setColorChange({id: record.symbol,style:{ backgroundColor: "white", color: "black" }});
+        setInterval(() => {
+          setColorChange({id:index ,style:{}}); 
+        }, 1);
+      }
+      if (priceAverage === null && previousPriceAverages[record.symbol]) {
+        priceAverage = previousPriceAverages[record.symbol];
+      }
 
 
-      // }
-      // if (priceAverage === null && previousPriceAverages[record.symbol]) {
-      //   priceAverage = previousPriceAverages[record.symbol];
-      //   setColorChange({id: index,style:{ backgroundColor: "white", color: "black" }});
-      //   setInterval(() => {
-      //     setColorChange({id: index,style:{}}); // Reset to original state
-      //   }, 100);
-      // }
 
-      // if (priceAverage){
-      //   setColorChange({id: index,style:{ backgroundColor: "white", color: "black" }});
-      //   setInterval(() => {
-      //     setColorChange({id: index,style:{}}); // Reset to original state
-      //   }, 100);
+      if (priceAverage){
+       
+      }
 
-      // }
       const obj = {
         name: record.symbol,
-        today: (<div key={index} style={colorChange.id === 3 ? colorChange.style : null}>{priceAverage === null ? Util.formatNumber(stockHistory?.exchange === "UPCOM" ? stockHistory?.PriceAverage : stockHistory?.PriceClose) : priceAverage}</div>),
+        today: (<div key={index} style={colorChange.style }>{priceAverage === null ? Util.formatNumber(stockHistory?.exchange === "UPCOM" ? stockHistory?.PriceAverage : stockHistory?.PriceClose) : Util.formatNumber(priceAverage)}</div>),
         action: (
           <Button
             variant="outlined"
