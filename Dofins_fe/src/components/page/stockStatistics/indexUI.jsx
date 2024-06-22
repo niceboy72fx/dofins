@@ -1,8 +1,8 @@
 import * as React from "react";
-import TableUI from "./componentUI/table";
 import SearchUI from "./componentUI/search";
+import TableUI from "./componentUI/table";
 
-export default function StockStatisticsUI({
+export default function GrowthTargetUI({
   data,
   setParams,
   loader,
@@ -14,10 +14,10 @@ export default function StockStatisticsUI({
     <div>
       {dofins ? (
         <div>
-          <SearchUI industries={setIndustries}/>
+          <SearchUI industries={setIndustries} />
         </div>
       ) : null}
-      <TableUI stockData={data} setParams={setParams} loader={loader} industries={industries}  />
+      <TableUI stockData={data} setParams={setParams} loader={loader} industries={industries} />
     </div>
   );
 }

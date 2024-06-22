@@ -1,6 +1,11 @@
 // WebSocketManager.js
 class WebSocketManager {
-  constructor(url, messageHandler, pingInterval = 30000, reconnectInterval = 5000) {
+  constructor(
+    url,
+    messageHandler,
+    pingInterval = 30000,
+    reconnectInterval = 5000
+  ) {
     this.url = url;
     this.messageHandler = messageHandler;
     this.pingInterval = pingInterval;
@@ -40,7 +45,11 @@ class WebSocketManager {
     };
 
     this.websocket.onclose = (event) => {
-      console.error(`WebSocket closed with code: ${event.code}. Reconnecting in ${this.reconnectInterval / 1000} seconds...`);
+      console.error(
+        `WebSocket closed with code: ${event.code}. Reconnecting in ${
+          this.reconnectInterval / 1000
+        } seconds...`
+      );
       this.stopPing();
       this.scheduleReconnect();
     };
@@ -54,7 +63,7 @@ class WebSocketManager {
   startPing() {
     this.pingIntervalId = setInterval(() => {
       if (this.websocket.readyState === WebSocket.OPEN) {
-        this.websocket.send(JSON.stringify({ type: 'ping' }));
+        this.websocket.send(JSON.stringify({ type: "ping" }));
       }
     }, this.pingInterval);
   }

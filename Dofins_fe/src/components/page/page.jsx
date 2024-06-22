@@ -4,6 +4,7 @@ import DashBoard from "./dashBoard";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import StockStatistics from "./stockStatistics";
 import TableRowsIcon from "@mui/icons-material/TableRows";
+import GrowthTarget from "./growthTarget";
 
 const color = {
   color: "white",
@@ -25,7 +26,7 @@ export const pageCms = [
   },
   {
     path: "/shorts-list",
-    element: <StockStatistics dofins={true}  />,
+    element: <StockStatistics dofins={true} />,
     name: "Dofin's Short List",
     children: [
       {
@@ -33,6 +34,19 @@ export const pageCms = [
         path: "",
         element: <Test />,
         name: "Dofin's Short List",
+      },
+    ],
+  },
+  {
+    path: "/growth-chart",
+    element: <GrowthTarget dofins={true} />,
+    name: "Dofins's Growth Target",
+    children: [
+      {
+        icon: <AssignmentIcon sx={color} />,
+        path: "",
+        element: <Test />,
+        name: "Dofins's Growth Target",
       },
     ],
   },

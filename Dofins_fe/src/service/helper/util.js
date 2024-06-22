@@ -24,6 +24,23 @@ export default class Util {
     return formattedAmount;
   }
 
+  static formatNumberStringVN(value) {
+    const absValue = Math.abs(value);
+    let formattedValue;
+
+    if (absValue >= 1e9) {
+      formattedValue = `${absValue / 1e9} tỷ VND`;
+    } else if (absValue >= 1e6) {
+      formattedValue = `${absValue / 1e6} triệu VND`;
+    } else if (absValue >= 1e3) {
+      formattedValue = `${absValue / 1e3} nghìn VND`;
+    } else {
+      formattedValue = absValue.toString();
+    }
+
+    return value < 0 ? `-${formattedValue}` : formattedValue;
+  }
+
   static async authenticate() {
     const urls = "https://www.fireant.vn/api";
 
@@ -94,9 +111,9 @@ export default class Util {
       try {
         const response = await fetch(
           urls +
-          "/Excel/Company/HistoricalQuotes/" +
-          stock +
-          `/${formattedDate}/${formattedDate}`,
+            "/Excel/Company/HistoricalQuotes/" +
+            stock +
+            `/${formattedDate}/${formattedDate}`,
           {
             method: "GET",
             headers: headers,
@@ -169,11 +186,7 @@ export default class Util {
     };
   }
 
-
-
   static signalrFrameworkRealtime() {
-
-    
     const config = {
       ConsumerID: "8b3cff49bd5442b3a572654828f11c9d",
       ConsumerSecret: "c0048050f61847758d53842c55469f8e",
@@ -191,41 +204,47 @@ export default class Util {
       GET_INTRADAY_OHLC: "api/v2/Market/IntradayOhlc",
       GET_DAILY_INDEX: "api/v2/Market/DailyIndex",
       GET_DAILY_STOCKPRICE: "api/v2/Market/DailyStockPrice",
-      SIGNALR: "v2.0/signalr"
-    }
+      SIGNALR: "v2.0/signalr",
+    };
 
-    axios.post(config.URL + api.GET_ACCESS_TOKEN, {
-      consumerID: config.ConsumerID,
-      consumerSecret: config.ConsumerSecret,
-    }).then(response => {
-      if (response.data.status === 200) {
-        const token = "Bearer " + response.data.data.accessToken;
-    
-        axios.interceptors.request.use(function (axios_config) {
-          axios_config.headers.Authorization = token;
-          return axios_config;
-        });
-    
-        const connection = new signalR.HubConnectionBuilder()
-          .withUrl(config.HubUrl, { accessTokenFactory: () => response.data.data.accessToken })
-          .configureLogging(signalR.LogLevel.Information)
-          .build();
-    
-        // connection.on(client.events.onData, function (message) {
-        //   console.log(message);
-        // });
-        // connection.on(client.events.onConnected, function () {
-        //   connection.invoke("SwitchChannel", "X-QUOTE:ALL")
-        //     .catch(err => console.error(err.toString()));
-        // });
-        connection.start()
-          .then(() => console.log("SignalR Connected"))
-          .catch(err => console.error("SignalR Connection Error: ", err));
-      } else {
-        console.log(response.data.message);
-      }
-    }).catch(reason => {
-      console.log(reason);
-    });
+    axios
+      .post(config.URL + api.GET_ACCESS_TOKEN, {
+        consumerID: config.ConsumerID,
+        consumerSecret: config.ConsumerSecret,
+      })
+      .then((response) => {
+        if (response.data.status === 200) {
+          const token = "Bearer " + response.data.data.accessToken;
+
+          axios.interceptors.request.use(function (axios_config) {
+            axios_config.headers.Authorization = token;
+            return axios_config;
+          });
+
+          const connection = new signalR.HubConnectionBuilder()
+            .withUrl(config.HubUrl, {
+              accessTokenFactory: () => response.data.data.accessToken,
+            })
+            .configureLogging(signalR.LogLevel.Information)
+            .build();
+
+          // connection.on(client.events.onData, function (message) {
+          //   console.log(message);
+          // });
+          // connection.on(client.events.onConnected, function () {
+          //   connection.invoke("SwitchChannel", "X-QUOTE:ALL")
+          //     .catch(err => console.error(err.toString()));
+          // });
+          connection
+            .start()
+            .then(() => console.log("SignalR Connected"))
+            .catch((err) => console.error("SignalR Connection Error: ", err));
+        } else {
+          console.log(response.data.message);
+        }
+      })
+      .catch((reason) => {
+        console.log(reason);
+      });
   }
 }
