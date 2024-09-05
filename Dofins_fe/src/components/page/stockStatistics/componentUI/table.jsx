@@ -229,25 +229,6 @@ export default function TableUI({ stockData, setParams, loader, industries }) {
           ? stockRealtime.PriceAverage
           : stockRealtime.PriceClose
         : null;
-      // if (priceAverageRecord !== null || priceAverage !== undefined) {
-      //   previousPriceAverages[record.symbol] = priceAverageRecord;
-      //   setColorChange({id: record.symbol,style:{ backgroundColor: "white", color: "black" }});
-      //   setInterval(() => {
-      //     setColorChange({id:index ,style:{}}); 
-      //   }, 1);
-      // }
-      // if (priceAverage === null && previousPriceAverages[record.symbol]) {
-      //   priceAverage = previousPriceAverages[record.symbol];
-      // }
-
-
-
-      // if (priceAverage){
-
-      // }
-
-      console.log(priceAverage === null ? "no data" : Util.formatNumber(priceAverage))
-
       const obj = {
         name: record.symbol,
         today: (<div key={index} style={colorChange.style}>{priceAverage === null ? Util.formatNumber(stockHistory?.exchange === "UPCOM" ? stockHistory?.PriceAverage : stockHistory?.PriceClose) : Util.formatNumber(priceAverage)}</div>),

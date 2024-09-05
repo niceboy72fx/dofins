@@ -18,3 +18,12 @@ export const popUp = atom({
     data: {},
   },
 });
+
+
+export const searchPopUp = atom({
+  key: "searchPopUp",
+  default: {
+    open: false,
+    data: {},
+  },
+});

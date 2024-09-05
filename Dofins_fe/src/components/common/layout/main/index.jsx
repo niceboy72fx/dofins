@@ -79,7 +79,7 @@ export const LayOut = () => {
 
   return (
     <div className="">
-      {pop.open === true ? <PopUp emits={pop} /> : null}
+      {/* {pop.open === true ? <PopUp emits={pop} /> : null} */}
       <ThemeProvider theme={defaultTheme}>
         <Box sx={{ display: "flex" }}>
           <CssBaseline />

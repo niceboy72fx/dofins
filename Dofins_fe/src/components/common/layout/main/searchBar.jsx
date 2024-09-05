@@ -8,6 +8,8 @@ import Typography from "@mui/material/Typography";
 import InputBase from "@mui/material/InputBase";
 import MenuIcon from "@mui/icons-material/Menu";
 import SearchIcon from "@mui/icons-material/Search";
+import { useSetRecoilState } from "recoil";
+import { popUp, searchPopUp } from "../../../../state";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -52,6 +54,8 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 export default function SearchAppBar() {
+  const setPopUp = useSetRecoilState(searchPopUp);
+
   return (
     <Search>
       <SearchIconWrapper>
@@ -60,6 +64,15 @@ export default function SearchAppBar() {
       <StyledInputBase
         placeholder="Search…"
         inputProps={{ "aria-label": "search" }}
+        onClick={() => {
+          setPopUp({
+            open: true,
+            data: {
+              open: false,
+              data: {},
+            },
+          });
+        }}
       />
     </Search>
   );
